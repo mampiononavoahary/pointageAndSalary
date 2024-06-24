@@ -18,7 +18,7 @@ public class CalendarHelperByMonth implements CalendarHelper{
     }
 
     @Override
-    public Instant detEnd() {
+    public Instant getEnd() {
         LocalDate today = LocalDate.now();
         LocalDateTime result = LocalDateTime.of(today.getYear(), month.getValue(), month.minLength(), 16, 0);
         return result.atZone(ZoneId.systemDefault()).toInstant();

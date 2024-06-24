@@ -3,6 +3,7 @@ package org.example.pointageEmploye.model;
 import lombok.*;
 
 import java.time.Duration;
+import java.time.Instant;
 import java.time.LocalTime;
 import java.util.Date;
 
@@ -14,7 +15,7 @@ public class Pointing {
     private Employe employe;
     private LocalTime hourEnter;
     private LocalTime hourSortie;
-    private Date date;
+    private Instant date;
 
     public Double getSumHourTravail(){
         Duration hours =Duration.between(hourEnter,hourSortie);
