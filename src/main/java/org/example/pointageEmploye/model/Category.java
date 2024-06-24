@@ -1,8 +1,7 @@
-package org.example.manageSalary;
+package org.example.pointageEmploye.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import org.example.pointageEmploye.model.IncreasedHour;
 
 import java.util.List;
 

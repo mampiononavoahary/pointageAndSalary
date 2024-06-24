@@ -3,7 +3,6 @@ package org.example.pointageEmploye.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import org.example.manageSalary.Category;
 
 import java.time.Instant;
 import java.util.ArrayList;
